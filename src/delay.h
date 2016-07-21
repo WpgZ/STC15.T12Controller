@@ -3,6 +3,6 @@
 
 #include <typedef.h>
 
-void delay_ms (uint32_t a);
+void delay_ms(uint32_t a);
 
 #endif

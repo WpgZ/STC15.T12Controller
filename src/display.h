@@ -23,9 +23,9 @@
 #define FLASH_333			0x0030
 #define DP_MASK				0x0300
 
-extern uint32_t	led_ctrl;
-extern uint8_t  digits[3];
-extern int32_t* led_value; 
+extern uint32_t led_ctrl;
+extern uint8_t digits[3];
+extern int32_t* led_value;
 void DisplayCalcDigits(int32_t a);
 void Display(int32_t a);
 void DisplayInit(BIT on, uint32_t ctrl);

@@ -34,13 +34,13 @@
 
 #define SETTING_NUM			16
 
-extern int32_t	LED_RTT;
-extern int32_t	Tsetting;
-extern uint8_t	PID_P, PID_I, PID_D;
-extern uint8_t	Vos;
-extern int8_t		Tcomp;
-extern int32_t	GainEx;
-extern int32_t	Vref;
+extern int32_t LED_RTT;
+extern int32_t Tsetting;
+extern uint8_t PID_P, PID_I, PID_D;
+extern uint8_t Vos;
+extern int8_t Tcomp;
+extern int32_t GainEx;
+extern int32_t Vref;
 
 extern BIT PRE_HIBER_STATE;
 
