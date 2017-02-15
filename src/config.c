@@ -5,7 +5,7 @@
 #include "state.h"
 #include "eeprom.h"
 #include "sbit.h"
-#include "beep.h"
+// #include "beep.h"
 #include "ADC.h"
 
 int32_t LED_RTT;

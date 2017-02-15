@@ -3,7 +3,7 @@
 #include "pid.h"
 #include "config.h"
 #include "state.h"
-#include "beep.h"
+#include "beeper.h"
 #include "eeprom.h"
 
 void main(void) {

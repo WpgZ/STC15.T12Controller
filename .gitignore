@@ -1,0 +1,9 @@
+GENERATED
+*.asm
+*.lst
+*.rel
+*.rst
+*.sym
+DIST/*
+.*
+G*

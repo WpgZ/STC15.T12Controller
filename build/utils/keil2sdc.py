@@ -26,9 +26,9 @@ with open(options.filename) as f:
 #define DEFINE_SFR32(name, addr)      __sfr32 __at(((addr+3UL)<<24) | ((addr+2UL)<<16) | ((addr+1UL)<<8) | addr) name
 #define DEFINE_SFR32E(name, fulladdr) __sfr32 __at(fulladdr)   name
 
-#define SFR __sfr
+//#define SFR __sfr
 #define SBIT __sbit
-#define BIT __sbit
+#define BIT __bit
 #define INTERRUPT __interrupt
 #define IDATA __idata
 #define CODE __code
@@ -49,7 +49,7 @@ with open(options.filename) as f:
 #define DEFINE_SFR32(name, fulladdr)  /* not supported */
 #define DEFINE_SFR32E(name, fulladdr) /* not supported */
 
-#define SFR sfr
+//#define SFR sfr
 #define SBIT sbit
 #define BIT sbit
 #define INTERRUPT interrupt
